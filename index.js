@@ -1,7 +1,9 @@
 const express = require('express')
+const morgan = require('morgan')
 const app = express()
 const port = 3001
 
+app.use(morgan('combined'))
 app.get('/', (req, res) => {
   var a = 1;
 var b = 2;

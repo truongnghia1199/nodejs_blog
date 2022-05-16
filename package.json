@@ -22,7 +22,10 @@
   "homepage": "https://github.com/truongnghia1199/nodejs_blog#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.16",
     "save-dev": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
   }
 }
